@@ -1,35 +1,56 @@
-/* Outdated CSS */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Updated font for a cleaner look */
     margin: 0;
     padding: 0;
+    line-height: 1.6; /* Improved line height for readability */
+    background-color: #f9f9f9; /* Light background color */
 }
 
 h1 {
     margin: 0;
+    font-size: 2.5rem; /* Increased size for better visibility */
+    color: #333; /* Darker text color */
 }
 
 ul {
+    list-style: none; /* Remove default bullet points */
     margin: 0;
     padding: 0;
+    display: flex; /* Use flexbox for navigation */
+    justify-content: center; /* Center items */
+    gap: 15px; /* Spacing between items */
 }
 
 li {
     margin: 0;
-    padding: 0;
 }
 
 p {
-    margin: 0;
-    padding: 0;
+    margin: 0 0 1rem; /* Bottom margin for spacing */
+    color: #555; /* Softer text color for better readability */
 }
 
 img {
-    width: 100%;
+    max-width: 100%; /* Ensure responsive images */
     height: auto;
+    border-radius: 8px; /* Rounded corners for images */
 }
 
 table {
     width: 100%;
     border-collapse: collapse;
+    margin: 20px 0; /* Margin for spacing */
+}
+
+td {
+    padding: 10px; /* Added padding for cells */
+    border: 1px solid #ddd; /* Light border for separation */
+    background-color: #fff; /* White background for cells */
+}
+
+footer {
+    text-align: center; /* Centered footer text */
+    padding: 10px;
+    background-color: #cccccc; /* Consistent footer background */
+    color: #333; /* Footer text color */
 }
